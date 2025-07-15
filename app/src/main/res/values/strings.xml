@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yonsei App</string>
+    <string name="LearnUs">LearnUs</string>
+    <string name="MySeat">MySeat</string>
+    <string name="Ymid">모바일 학생증</string>
+    <string name="Attendance">전자출결</string>
+    <string name="Laundry">세탁앱</string>
+    <string name="Yammi">Yammi</string>
+    <string name="Delivery">배달긱</string>
+
+</resources>

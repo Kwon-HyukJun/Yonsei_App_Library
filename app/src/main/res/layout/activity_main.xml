@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_LearnUs"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_MySeat"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_LearnUs"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Ymid"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_MySeat"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Attendance"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_Ymid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Laundry"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Yammi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_Laundry"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Delivery"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_Yammi"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:text="@string/LearnUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/btn_LearnUs"
+        app:layout_constraintEnd_toEndOf="@id/btn_LearnUs"
+        app:layout_constraintTop_toBottomOf="@id/btn_LearnUs" />
+
+    <TextView
+        android:text="@string/MySeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/btn_MySeat"
+        app:layout_constraintEnd_toEndOf="@id/btn_MySeat"
+        app:layout_constraintTop_toBottomOf="@id/btn_MySeat" />
+
+    <TextView
+        android:text="@string/Ymid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/btn_Ymid"
+        app:layout_constraintEnd_toEndOf="@id/btn_Ymid"
+        app:layout_constraintTop_toBottomOf="@id/btn_Ymid" />
+
+    <TextView
+        android:text="@string/Attendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/btn_Attendance"
+        app:layout_constraintEnd_toEndOf="@id/btn_Attendance"
+        app:layout_constraintTop_toBottomOf="@id/btn_Attendance" />
+
+    <TextView
+        android:text="@string/Laundry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/btn_Laundry"
+        app:layout_constraintEnd_toEndOf="@id/btn_Laundry"
+        app:layout_constraintTop_toBottomOf="@id/btn_Laundry" />
+
+    <TextView
+        android:text="@string/Yammi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/btn_Yammi"
+        app:layout_constraintEnd_toEndOf="@id/btn_Yammi"
+        app:layout_constraintTop_toBottomOf="@id/btn_Yammi" />
+
+    <TextView
+        android:text="@string/Delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/btn_Delivery"
+        app:layout_constraintEnd_toEndOf="@id/btn_Delivery"
+        app:layout_constraintTop_toBottomOf="@id/btn_Delivery" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
