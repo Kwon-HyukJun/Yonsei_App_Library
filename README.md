@@ -10,21 +10,25 @@
 ----------------------------------------------
 ## 앱에 쓰인 주요 문법
 
-val myIntent = packageManager.getLaunchIntentForPackage("앱 패키지 이름")
+`val myIntent = packageManager.getLaunchIntentForPackage("앱 패키지 이름")`
 
-packageManager: 앱 정보 가져오거나 앱 실행할 때 사용
+`packageManager`: 앱 정보 가져오거나 앱 실행할 때 사용
 
-getLaunchIntentForPackage: 앱 패키지 이름을 통해 Intent 반환함
+`getLaunchIntentForPackage`: 앱 패키지 이름을 통해 Intent 반환함
 
-startActivity(myIntent): 새로운 Intent(myIntent)를 시작할 때 사용
+`startActivity(myIntent)`: 새로운 Intent(myIntent)를 시작할 때 사용
 
 앱 패키지 이름은 플레이 스토어를 통해 알 수 있다.
 
 ---------------------------------------------
 ## 추가할 기능
 
-레이아웃 조정
+- [ ] 레이아웃 조정
 
-앱 패키지와 앱 이름을 넣으면 사용자가 임이의 앱을 추가할 수 있는 기능
+- [ ] 앱 패키지와 앱 이름을 넣으면 사용자가 임이의 앱을 추가할 수 있는 기능
 
-val btn_변수명 = findViedById<Button>(아이디)를 클래스로 처리 할 수 있도록 만들기
+- [ ] val btn_변수명 = findViedById<Button>(아이디)를 클래스로 처리 할 수 있도록 만들기
+
+
+
+![연세마크](./app/src/main/res/drawable/yonseimark.jpg)
